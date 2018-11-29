@@ -1,0 +1,16 @@
+.left-bar{
+    background-color: black;
+    position: fixed;
+    width: 22.2rem;
+    height: 100%;
+}
+
+.main{
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 22.5rem;
+    padding: 2.5rem 11rem;
+}
