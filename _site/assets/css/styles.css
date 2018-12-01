@@ -1,16 +1,130 @@
-.left-bar{
-    background-color: black;
-    position: fixed;
-    width: 22.2rem;
-    height: 100%;
+body{
+}
+h1{
+    color:#CDD0FF;
+    font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,a{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-btn{
+    font-family: 'Montserrat', sans-serif;
+    border-radius:4vh;
+    background-color: #CDD0FF;
+    border: none;
+    color: #7E80B2;
+    padding: 8px;
 }
 
-.main{
-    background-color: purple;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 22.5rem;
-    padding: 2.5rem 11rem;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+    .static-bar{
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        background-color: #7E80B2;
+        width:100%;
+    }
+    .separator_one{
+        width: 20rem;
+    }
+    .buttons{
+        margin: 5vw 0vw 5vw 0vw;
+    }
+    .feed{
+        min-height: 100vw;
+    }
+    .article{
+        text-align: justify;
+        margin:5vw;
+    }
+    .date_time{
+        color: #CDD0FF;
+        text-align: center;
+    }
+    .separator_post{
+        width: 1rem;
+    }
+    .footer{
+        color: #CDD0FF;
+        text-align: center;
+        background-color: #7E80B2;
+        height: 50px;
+    }
+    .link_post_title{
+        color:black;
+        text-decoration: none;
+    }
+    .link_post_title:hover{
+        color:#58597D;
+        text-decoration: none;
+    }
+    .img {
+        display: none;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .static-bar{
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        background-color: #7E80B2;
+        width:100%;
+    }
+    .separator_one{
+        width: 20rem;
+    }
+    .buttons{
+        margin: 5vw 0vw 5vw 0vw;
+    }
+    .feed{
+        min-height: 50vw;
+    }
+    .article{
+        text-align: justify;
+        margin:5vw;
+    }
+    .date_time{
+        color: #CDD0FF;
+        text-align: center;
+    }
+    .separator_post{
+        width: 1rem;
+    }
+    .footer{
+        color: #CDD0FF;
+        text-align: center;
+        background-color: #7E80B2;
+        height: 50px;
+    }
+    .link_post_title{
+        color:black;
+        text-decoration: none;
+    }
+    .link_post_title:hover{
+        color:#58597D;
+        text-decoration: none;
+    }
+    .img {
+        max-width: 30%;
+        height: auto;
+        border-radius:50vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
