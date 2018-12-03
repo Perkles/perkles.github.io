@@ -8,102 +8,41 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
             integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
             crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
         <aside class="static-bar">
-            <h1>Perkles</h1>
-            <img src="/assets/images/perkles.jpg" class="img" alt="Perkles">
+            <a href="{{site.url}}"><h1 id="title" >Perkles</h1></a>
+            <a href="{{site.url}}"><img src="/assets/images/perkles.jpg" class="img" alt="Perkles"></a>
             <hr class="separator_one">
             <div class="description">
                 Hi, i'm a java web developer , Redentor's intern, Campus expert member, father and developer
             </div>
             <div class="buttons">
-                <button type="button" class="nav-btn">Blog</button>
+                <button type="button" class="nav-btn"><a href="{{site.url}}">Blog</a></button>
                 <button type="button" class="nav-btn">Portfolio</button>
-                <button type="button" class="nav-btn">About</button>
             </div>
 
 
             <footer class="footer-wide">
                 <section class="contact">
                     <h3 class="contact-title">Contact me</h3>
-                    <ul>
-                        <li><i class="fab fa-github-square icon"><a href="/js/"></a></i></li>
-                        <li><i class="fab fa-twitter-square icon"><a href="/css/"></a></i></li>
-                    </ul>
+
+                    <i class="fab fa-linkedin"><a href="#"></a></i>
+                    <i class="fab fa-github-square"><a href="/js/"></a></i>
+                    <i class="fab fa-twitter-square"><a href="/css/"></a></i>
+
                 </section>
                 <div class="copyright">
-                    2018 © Otavio R
+                    2018 © Otávio R Perkles
                 </div>
             </footer>
         </aside>
 
         <article class="feed">
-
-            <div class="article">
-                <a class="link_post_title" href="#">
-                    <h3>
-                    Here comes a serious title with all the content and stuff
-                    that will be placed right here
-                    </h3>
-                </a>
-                <div class="date_time">
-                    2017, Sep 12   —  4 minute read
-                </div>
-            </div>
-
-            <div class="article">
-                <a class="link_post_title" href="#">
-                    <h3>
-                    Small title
-                    </h3>
-                </a>
-                <div class="date_time">
-                    2017, Sep 12   —  4 minute read
-                </div>
-            </div>
-
-            <div class="article">
-                <a class="link_post_title" href="#">
-                    <h3>
-                    This is a medium size post title
-                    </h3>
-                </a>
-                <div class="date_time">
-                    2017, Sep 12   —  4 minute read
-                </div>
-            </div>
-
-            <div class="article">
-                <a class="link_post_title" href="#">
-                    <h3>
-                    Here comes a serious title with all the content and stuff
-                    that will be placed right here Here comes a serious title with all the content and stuff
-                    that will be placed right here
-                    </h3>
-                </a>
-                <div class="date_time">
-                    2017, Sep 12   —  4 minute read
-                </div>
-            </div>
-
-            <div class="article">
-                <a class="link_post_title" href="#">
-                    <h3>
-                    Here comes a serious title with all the content and stuff
-                    that will be placed right here Here comes a serious title with all the content and stuff
-                    that will be placed right here Here comes a serious title with all the content and stuff
-                    that will be placed right here
-                    </h3>
-                </a>
-                <div class="date_time">
-                    2017, Sep 12   —  4 minute read
-                </div>
-            </div>
-
+            {{ content }}
         </article>
 
         <footer class="footer">
