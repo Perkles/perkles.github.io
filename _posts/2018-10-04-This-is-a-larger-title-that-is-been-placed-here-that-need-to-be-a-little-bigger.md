@@ -5,12 +5,16 @@ author: me
 categories: [dayly]
 tags: [hot, summer]
 author: Otávio Reis Perkles
-
 ---
+
 ![Image of Yaktocat](/assets/images/test.jpeg){:class="title-image"}
+
+___
 
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
+
+## this is a title
 
 In some countries, bananas used for cooking may be called "plantains",
 distinguishing them from dessert bananas. The fruit is variable in size, color,
