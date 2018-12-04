@@ -30,9 +30,7 @@ hr{
 }
 .paginator-highlight{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
     color:#7E80B2;
-    font-weight: bold;
 }
 .nav-btn{
     font-family: 'Montserrat', sans-serif;
@@ -50,6 +48,11 @@ hr{
 }
 .fab{
     font-size: 1.4rem;
+}
+.fas{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 0.9rem;
 }
 .date-post{
     text-align: center;

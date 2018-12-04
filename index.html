@@ -25,10 +25,10 @@ title: Perkles - Blog
         <div class="pagination">
             {% if paginator.previous_page %}
                 <a href="{{ paginator.previous_page_path | relative_url }}">
-                    <i class="fas fa-arrow-circle-left nav-btn"></i>
+                    <i class="fas fa-arrow-circle-left"></i>
                 </a>
             {% else %}
-            <i class="fas fa-ban nav-btn"></i>
+            <i class="fas fa-ban"></i>
             {% endif %}
 
             {% for page in (1..paginator.total_pages) %}
@@ -47,10 +47,10 @@ title: Perkles - Blog
 
             {% if paginator.next_page %}
                 <a href="{{ paginator.next_page_path | relative_url }}">
-                    <i class="fas fa-arrow-circle-right nav-btn"></i>
+                    <i class="fas fa-arrow-circle-right"></i>
                 </a>
                 {% else %}
-                    <i class="fas fa-ban nav-btn-"></i>
+                    <i class="fas fa-ban"></i>
             {% endif %}
         </div>
     {% endif %}
