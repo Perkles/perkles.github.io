@@ -24,6 +24,16 @@ a{
 hr{
     color:#CDD0FF;
 }
+.pagination{
+    margin-top: 50px;
+    text-align: center;
+}
+.paginator-highlight{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color:#7E80B2;
+    font-weight: bold;
+}
 .nav-btn{
     font-family: 'Montserrat', sans-serif;
     border-radius:4vh;
