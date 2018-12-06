@@ -1,14 +1,11 @@
 ---
 date: 2018-10-02
 layout: posts
-author: me
-categories: [dayly]
-tags: [hot, summer]
 author: Otávio Reis Perkles
 comments: true
 ---
 
-![Image of Yaktocat](/assets/images/test.jpeg){:class="title-image"}
+![Fatherhood](/assets/images/fatherhood.png){:class="title-image"}
 
 ___
 
