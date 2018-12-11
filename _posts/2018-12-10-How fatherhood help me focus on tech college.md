@@ -19,4 +19,5 @@ I've begun to work during the day in the supermarket and taking a course in tech
 
 Isn't just the responsibility of being a father that push me further in that goal, my passion for programming also help me take a straight line in my studies.
 I noticed a huge difference in my mindset compared with the period that I've spend taking biology classes i don't know if being a father has influence in that or it is just the fact that I like programming more than biology, maybe a combination of both.
+
 I just want to keep it recorded in this post and say that I'm a young father and I'm proud of it.
