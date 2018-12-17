@@ -24,6 +24,9 @@ a{
 hr{
     color:#CDD0FF;
 }
+.normal-link{
+    color: #e8a448!important;
+}
 .pagination{
     margin-top: 50px;
     text-align: center;
