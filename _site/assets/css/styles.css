@@ -27,6 +27,9 @@ hr{
 .normal-link{
     color: #e8a448!important;
 }
+#flag{
+    height: 15px;
+}
 .pagination{
     margin-top: 50px;
     text-align: center;
