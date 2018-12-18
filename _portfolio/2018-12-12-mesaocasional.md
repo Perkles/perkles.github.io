@@ -6,22 +6,18 @@ title: mesaocasional.com
 category: Podcast Website
 galery:
   - image_path: /assets/images/moc_mesa_mob.jpg
-    title: Apple Pie
+    title: Mesaocasional mockup
   - image_path: /assets/images/moc_mesa.jpg
-    title: Birthday Cake
-  - image_path: /assets/images/moc_mesa_desk.jpg
-    title: Black Forest
-  - image_path: /assets/images/moc_mesa_desk.jpg
-    title: Brownie
+    title: Mesaocasional mockup
 ---
 
 ## mesaocasional.com ([demo](http://mesaocasional.com/))
 
-![Blubrry](/assets/images/moc_mesa_desk.jpg){:class="title-image"}
+![Mockup](/assets/images/moc_mesa_desk.jpg){:class="title-image"}
 
-| Tecnologia/Linguagem | Duração                    | Online | Hosting | Domínio |
-| -------------------- | -------------------------- | -------|---------|---------|
-| Wordpress            | 1 mês                      | Sim *  |Hostgator| GoDaddy |
+| Tecnologia/Linguagem | Duração                    | Online |
+| -------------------- | -------------------------- | -------|
+| Wordpress            | 1 mês                      | Sim *  |
 
 
 O objetivo desse projeto era desenvolver um site que fosse de fácil utilização e que fornecesse um feed sólido e conciso para _podcasting_, para isso foi usado o [Wordpress](https://br.wordpress.com/).
@@ -37,6 +33,6 @@ A Blubrry não fornece apenas esse meio 'facilitado' de conexão com o Wordpress
 Durante o desenvolvimento desse projeto também tive experiência com a produção de podcasts. Sonorização, gravação,
 edição e publicação dos episódios também foram realizadas.
 
-
+Toda a identidade visual do site e das redes sociais são de crédito do design [Eduardo Sato](http://eduardohypolito.com/). Personalização e customização do template são atribuidas a mim. 
 
 ###### * Verificado em 12/2018

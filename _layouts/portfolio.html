@@ -8,11 +8,12 @@ title: Perkles - Portfolio
 {% endif %}
 
 <div class="content">
-{{ content }}
-</div>
+    {{ content }}
 
-<div class="photo-gallery">
-    {% for image in page.galery %}
-        <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
-    {% endfor %}
+    <div class="photo-gallery">
+        {% for image in page.galery %}
+            <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+        {% endfor %}
+    </div>
+
 </div>
