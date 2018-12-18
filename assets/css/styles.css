@@ -226,6 +226,6 @@ hr{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .static-bar{width: 400px;}
-    .feed{margin-left: 600px;}
+    .feed{margin-left: 500px;}
     /* .copyright{margin-left: 1.5vh;} */
 }
