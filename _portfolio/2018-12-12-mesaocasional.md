@@ -33,6 +33,6 @@ A Blubrry não fornece apenas esse meio 'facilitado' de conexão com o Wordpress
 Durante o desenvolvimento desse projeto também tive experiência com a produção de podcasts. Sonorização, gravação,
 edição e publicação dos episódios também foram realizadas.
 
-Toda a identidade visual do site e das redes sociais são de crédito do design [Eduardo Sato](http://eduardohypolito.com/). Personalização e customização do template são atribuidas a mim. 
+Toda a identidade visual do site e das redes sociais são de crédito do design [Eduardo Saito](http://eduardohypolito.com/). Personalização e customização do template são atribuidas a mim. 
 
 ###### * Verificado em 12/2018
