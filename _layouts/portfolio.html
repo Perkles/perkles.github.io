@@ -10,3 +10,9 @@ title: Perkles - Portfolio
 <div class="content">
 {{ content }}
 </div>
+
+<div class="photo-gallery">
+    {% for image in page.galery %}
+        <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
+    {% endfor %}
+</div>
