@@ -24,6 +24,23 @@ a{
 hr{
     color:#CDD0FF;
 }
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #7E80B2;
+}
+
+th{
+    border:1px solid #CDD0FF;
+    color: #7E80B2;
+    padding: 5px;
+}
+
+td{
+    border:1px solid #CDD0FF;
+    padding: 10px;
+}
+
 .normal-link{
     color: #e8a448;
 }
@@ -116,9 +133,12 @@ hr{
     text-decoration: none;
 }
 .content{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-left: 8vw;
     margin-right: 8vw;
+}
+.content a{
+    color: #e8a448;
 }
 .social-icons{
     color: #CDD0FF;
