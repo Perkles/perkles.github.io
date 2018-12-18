@@ -33,9 +33,10 @@
                 Oi, sou estagiario de desenvolvimento na <a target="_blank" class="normal-link" href="http://www.redentor.edu.br/">@Redentor</a>,
                 Java-Web dev, Python entusiasta e <a target="_blank" class="normal-link"  href="https://githubcampus.expert/Perkles/">Github Campus Expert</a>
                 <img src="/assets/images/flag.png" alt="flag" id="flag" >
-
+            </div>
             <div class="buttons">
                 <a href="http://localhost:4000" class="nav-btn">Blog</a>
+                <span class="btn-separator"> - </span>
                 <a href="http://localhost:4000/portfolio" class="nav-btn">Portfolio</a>
             </div>
 
@@ -46,101 +47,22 @@
         </aside>
 
         <article class="feed">
-            <title>Perkles - Portfolio</title>
-<div class="article">
+            
 
-    <div id="container">
-        <div id="inner">
-            <div class="demo-img">
-                <div class="demo-overlay">
-                    <h1>TEST IT OUT</h1>
-                </div>
+<title>Perkles - Portfolio</title>
+
+<div class="portfolio-box">
+    
+        <a href="/portfolio/2018-12-12-teste/">
+        <div class="portfolio-article">
+            <img src="/assets/images/mesaocasional.png" alt="portfolio-item" class="portfolio-image">
+            <div class="portfolio-text">
+                <h2>mesaocasional.com</h2>
+                <h3>Podcast Website</h3>
             </div>
         </div>
-    </div>
-
+    
 </div>
-
-<script type="text/javascript">
-
-    (function() {
-      // Init
-      var container = document.getElementById("container"),
-          inner = document.getElementById("inner");
-
-      // Mouse
-      var mouse = {
-        _x: 0,
-        _y: 0,
-        x: 0,
-        y: 0,
-        updatePosition: function(event) {
-          var e = event || window.event;
-          this.x = e.clientX - this._x;
-          this.y = (e.clientY - this._y) * -1;
-        },
-        setOrigin: function(e) {
-          this._x = e.offsetLeft + Math.floor(e.offsetWidth / 2);
-          this._y = e.offsetTop + Math.floor(e.offsetHeight / 2);
-        },
-        show: function() {
-          return "(" + this.x + ", " + this.y + ")";
-        }
-      };
-
-      // Track the mouse position relative to the center of the container.
-      mouse.setOrigin(container);
-
-      //----------------------------------------------------
-
-      var counter = 0;
-      var refreshRate = 10;
-      var isTimeToUpdate = function() {
-        return counter++ % refreshRate === 0;
-      };
-
-      //----------------------------------------------------
-
-      var onMouseEnterHandler = function(event) {
-        update(event);
-      };
-
-      var onMouseLeaveHandler = function() {
-        inner.style = "";
-      };
-
-      var onMouseMoveHandler = function(event) {
-        if (isTimeToUpdate()) {
-          update(event);
-        }
-      };
-
-      //----------------------------------------------------
-
-      var update = function(event) {
-        mouse.updatePosition(event);
-        updateTransformStyle(
-          (mouse.y / inner.offsetHeight / 2).toFixed(2),
-          (mouse.x / inner.offsetWidth / 2).toFixed(2)
-        );
-      };
-
-      var updateTransformStyle = function(x, y) {
-        var style = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
-        inner.style.transform = style;
-        inner.style.webkitTransform = style;
-        inner.style.mozTranform = style;
-        inner.style.msTransform = style;
-        inner.style.oTransform = style;
-      };
-
-      //--------------------------------------------------------
-
-      container.onmousemove = onMouseMoveHandler;
-      container.onmouseleave = onMouseLeaveHandler;
-      container.onmouseenter = onMouseEnterHandler;
-    })();
-</script>
 
         </article>
 

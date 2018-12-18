@@ -1,2 +1,7 @@
 url: https://perkles.github.io/
 paginate: 5
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
