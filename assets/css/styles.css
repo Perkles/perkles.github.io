@@ -88,6 +88,13 @@ td{
     width: 95%;
     height: auto;
 }
+.post-image{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+    height: auto;
+}
 .btn-separator{
     display: none;
 }
