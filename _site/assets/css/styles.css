@@ -57,12 +57,14 @@ td{
     color:#7E80B2;
 }
 .nav-btn{
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     border-radius:15px;
     background-color: #CDD0FF;
     border: none;
     color: #7E80B2;
-    padding: 8px;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 .nav-btn-title{
     color: #7E80B2;
