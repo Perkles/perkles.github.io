@@ -164,7 +164,7 @@ td{
     position:relative;
     height: 38vh;
     width: 45vh;
-    border: solid white 12px;
+    border: solid #ececec9e 12px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
 }
 
