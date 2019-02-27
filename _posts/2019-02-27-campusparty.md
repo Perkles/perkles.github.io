@@ -1,6 +1,6 @@
 ---
 date: 2019-02-27
-title: Minha participação na Campus Party SP12
+title: Minha participação na Campus Party Brasil 12
 layout: posts
 author: Otávio Reis Perkles
 comments: true
