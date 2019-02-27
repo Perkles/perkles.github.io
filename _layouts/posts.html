@@ -15,6 +15,12 @@ layout: default
     </h5>
     {{ content }}
 
+    <div class="photo-gallery">
+        {% for image in page.galery %}
+            <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+        {% endfor %}
+    </div>
+
     {% if page.comments %}
         <div id="disqus_thread"></div>
         <script>

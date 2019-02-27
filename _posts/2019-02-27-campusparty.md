@@ -4,6 +4,11 @@ title: Minha participação na Campus Party SP12
 layout: posts
 author: Otávio Reis Perkles
 comments: true
+galery:
+  - image_path: /assets/images/meCP12.jpg
+    title: Workshop.
+  - image_path: /assets/images/workshopCP12.jpg
+    title: Workshop.
 ---
 
 ![CampusParty](/assets/images/cpcover.png){:class="title-image"}
@@ -37,4 +42,4 @@ Durante os dias do evento em conheci pessoas incríveis, auxiliei e instrui work
   <img src="eye-of-the-tiger-fallback.gif" />
 </video>
 
-Embora eu tenha auxiliado em todos os eventos do Github na CPBR12 deixo [aqui]({{site.url}}/talks) destacado os quais fui responsável direto.
+Embora eu tenha auxiliado em todos os eventos do Github na CPBR12 deixo [aqui]({{site.url}}/talks) destacado os quais tive participação direta.
