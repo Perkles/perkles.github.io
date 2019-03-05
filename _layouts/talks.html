@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+{% endif %}
+
+<div class="content">
+
+ 	{{ content }}
+</div>

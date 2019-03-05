@@ -1,0 +1,19 @@
+---
+layout: default
+title: Perkles - Portfolio
+---
+
+{% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+{% endif %}
+
+<div class="content">
+    {{ content }}
+
+    <div class="photo-gallery">
+        {% for image in page.galery %}
+            <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+        {% endfor %}
+    </div>
+
+</div>

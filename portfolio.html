@@ -1,0 +1,23 @@
+---
+layout: default
+title: Perkles - Portfolio
+---
+
+{% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+{% endif %}
+
+<title>{{ page.title }}</title>
+
+<div class="portfolio-box">
+    {% for portfolio in site.portfolio %}
+        <a href="{{ portfolio.url | prepend: site.baseurl }}">
+        <div class="portfolio-article">
+            <img src="{{ portfolio.image }}" alt="portfolio-item" class="portfolio-image">
+            <div class="portfolio-text">
+                <h2>{{ portfolio.title }}</h2>
+                <h3>{{ portfolio.category }}</h3>
+            </div>
+        </div>
+    {% endfor %}
+</div>

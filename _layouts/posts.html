@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+{% endif %}
+
+<div class="content">
+    
+    <h2>{{ page.title }}</h2>
+    <h5 class="date-post">
+        {{ page.date | date_to_long_string}}    —
+        {% include read-time.html content=page.content %}
+    </h5>
+    {{ content }}
+
+    <div class="photo-gallery">
+        {% for image in page.galery %}
+            <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+        {% endfor %}
+    </div>
+
+    {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script>
+        (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://perkles.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {% endif %}
+
+</div>
