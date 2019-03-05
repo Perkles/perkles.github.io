@@ -41,7 +41,9 @@ td{
     border:1px solid #CDD0FF;
     padding: 10px;
 }
-
+#disqus_thread{
+    margin-top: 5vw;
+}
 .normal-link{
     color: #e8a448;
 }
