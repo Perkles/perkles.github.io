@@ -13,12 +13,9 @@ galery:
 
 ![CampusParty](/assets/images/cpcover.png){:class="title-image"}
 
-<<<<<<< HEAD
 ___
 
 
-=======
->>>>>>> b1d187a7a5572e2857a6a6c6952a9c38e49c767b
 No início desse ano recebi o feliz convite para participar da [#CPBR12](https://twitter.com/search?q=%23CPBR12&src=tyah) representando o programa [Github Campus Experts](https://githubcampus.expert/), não só o convite foi inusitado, mas também toda a experiência vivida durante esses quase cinco dias de evento foram inesquecíveis. 
 
 Para você que chegou de alguma forma aqui e não sabe o que é um Github Campus Expert, ou não sabe o que é a Campus Party, fique tranquilo que vou explicar.
