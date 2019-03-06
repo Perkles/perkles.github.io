@@ -6,8 +6,10 @@ author: Otávio Reis Perkles
 comments: true
 ---
 
-___
 
+![Linguist](/assets/images/octocat.png){:class="title-image"}
+
+___
 
 Já se perguntou porque as vezes quando subimos um novo projeto no Github aquela barrinha aparece com a proporção errada da linguagem ? Basta adicionar o Bootstrap no seu repositório e automaticamente todo o projeto é rotulado como JavaScript? 
 Pois é ... isso acontece porque o github usa uma biblioteca chamada de [Linguist](https://github.com/github/linguist) (Linguista) que identifica a linguagem empregada em cada arquivo e em seguida gera uma porcentagem usada para montar aquele gráfico que encontramos em cima de nossos repositórios.
