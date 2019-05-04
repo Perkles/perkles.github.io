@@ -1,16 +1,16 @@
 /* ##-GENERAL-DEFINITIONS#################################################### */
 body{
-    color: #545454;
+    color: #898989;
     font-size: 1.1rem;
     line-height: 1.6;
     overflow-x: hidden;
 }
 h1{
-    color:#CDD0FF;
+    color:#e8a448;
     font-family: 'Montserrat', sans-serif;
 }
 h2,h3,h4,h5{
-    color:#7E80B2;
+    color:#626377;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -23,7 +23,7 @@ a{
     color:inherit;
 }
 hr{
-    color:#CDD0FF;
+    color:#e8a448;
 }
 table{
     border-collapse: collapse;
@@ -62,11 +62,12 @@ td{
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     border-radius:15px;
-    background-color: #CDD0FF;
+    background-color: #e8a448;
     border: none;
-    color: #7E80B2;
+    color: #626377;
     padding: 5px;
     margin-bottom: 5px;
+    font-weight: 800;
 }
 .nav-btn-title{
     color: #7E80B2;
@@ -102,12 +103,12 @@ td{
 .btn-separator{
     display: none;
 }
-/* ##-SPECIFIC-DEFINITIONS################################################### */
+/* ##-SPECIFIC-DEFINITIONS-################################################### */
 .static-bar{
     text-align: center;
     padding-top: 6px;
     padding-bottom: 2px;
-    background-color: #7E80B2;
+    background-color: #626377;
     width:100%;
 }
 .separator_one{
@@ -122,7 +123,7 @@ td{
     min-height: calc(100vh - 70px);
 }
 .date_time{
-    color:#7E80B2;
+    color:#626377;
     text-align: center;
     font-size: 0.9rem;
 }
@@ -130,6 +131,7 @@ td{
     width: 1rem;
 }
 .footer{
+    display: none; /*ill find a better place to put it latter*/
     color: #CDD0FF;
     background-color: #7E80B2;
     text-align: center;
@@ -231,6 +233,8 @@ td{
         margin-top: 30px;
         text-align: center;
         color:#CDD0FF;
+        margin-left: 3vw;
+        margin-right: 3vw;
     }
     .feed{
         position:absolute;
