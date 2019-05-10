@@ -28,17 +28,17 @@ hr{
 table{
     border-collapse: collapse;
     border-spacing: 0;
-    border:1px solid #7E80B2;
+    border:1px solid #e8a448;
 }
 
 th{
-    border:1px solid #CDD0FF;
-    color: #7E80B2;
+    border:1px solid #e8a448;
+    color: #e8a448;
     padding: 5px;
 }
 
 td{
-    border:1px solid #CDD0FF;
+    border:1px solid #e8a448;
     padding: 10px;
 }
 #disqus_thread{
@@ -166,8 +166,8 @@ td{
 }
 .portfolio-image{
     position:relative;
-    height: 38vh;
-    width: 45vh;
+    height: 30vh;
+    width: 40vh;
     border: solid #ececec9e 12px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
 }

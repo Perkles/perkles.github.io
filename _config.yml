@@ -1,14 +1,16 @@
 url: https://perkles.github.io/
 paginate: 5
 
+permalink: blog/:title
+
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /portfolio/:title/
 
   talks:
     output: true
-    permalink: /talks/:path/
+    permalink: /talks/:title/
 
 plugins:
   - jemoji
