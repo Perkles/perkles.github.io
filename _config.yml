@@ -8,9 +8,9 @@ collections:
     output: true
     permalink: /portfolio/:title/
 
-  talks:
+  events:
     output: true
-    permalink: /talks/:title/
+    permalink: /events/:title/
 
 plugins:
   - jemoji
