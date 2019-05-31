@@ -1,0 +1,37 @@
+---
+layout: default
+title: Perkles - Events
+---
+
+{% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+{% endif %}
+
+<title>{{ page.title }}</title>
+
+
+<div class="content">
+	<h1>Eventos</h1>
+	<p>Eventos nos quais participei como palestrante ou organizador</p>
+	<ul>
+		{% for event in site.events %}
+			{% if event.type == "roundTable" %}
+				<h3>Mesa Redonda</h3>
+				<a href="{{ event.event_url}}" target="_blank">{{ event.title }}</a>
+				({{ event.date | date: "%-d/%-m/%Y"}}) - {{event.local}}
+			{% elsif event.type == "talk" %}
+				<h3>Palestras</h3>
+				<a href="{{ event.event_url}}" target="_blank">{{ event.title }}</a>
+				({{ event.date | date: "%-d/%-m/%Y"}}) - {{event.local}}
+			{% elsif event.type == "workshop" %}
+				<h3>Workshops</h3>
+				<a href="{{ event.event_url}}" target="_blank">{{ event.title }}</a>
+				({{ event.date | date: "%-d/%-m/%Y"}}) - {{event.local}}
+			{% elsif event.type == "bootcamp" %}
+				<h3>Bootcamps</h3>
+				<a href="{{ event.event_url}}" target="_blank">{{ event.title }}</a>
+				({{ event.date | date: "%-d/%-m/%Y"}}) - {{event.local}}
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>

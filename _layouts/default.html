@@ -18,12 +18,12 @@
 
     <body>
         <aside class="static-bar">
-            <a href="{{site.url}}">
+            <a href="{{ link.link | relative_url }} /">
                 <h1 >
                     perkles.dev
                 </h1>
             </a>
-            <a href="{{site.url}}"><img src="/assets/images/perkles.jpg" class="img" alt="Perkles"></a>
+            <a href="{{ link.link | relative_url }} /"><img src="/assets/images/perkles.jpg" class="img" alt="Perkles"></a>
             <hr class="separator_one">
             <div class="social-icons">
                 <a target="_blank" href="https://www.linkedin.com/in/ot%C3%A1vio-reis-perkles-695913141/"><i class="fab fa-linkedin"></i></a>
@@ -36,11 +36,11 @@
                 desenvolvedor Python e Java, <a target="_blank" class="normal-link"  href="https://githubcampus.expert/Perkles/">Github Campus Expert</a>.
             </div>
             <div class="buttons">
-                <a href="{{ link.link | relative_url }}/ " class="nav-btn">Blog</a>
+                <a href="{{ link.link | relative_url }} / " class="nav-btn">Blog</a>
                 <span class="btn-separator"> - </span>
                 <a href="{{ link.link | relative_url }}/portfolio" class="nav-btn">Portfolio</a>
                 <span class="btn-separator"> - </span>
-                <a href="{{ link.link | relative_url }} /events" class="nav-btn">Talks</a>
+                <a href="{{ link.link | relative_url }} /events" class="nav-btn">Eventos</a>
             </div>
 
             <div class="copyright">
