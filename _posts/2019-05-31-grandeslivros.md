@@ -1,6 +1,6 @@
 ---
 date: 2019-05-31
-title: Algorithms de Robert Sedgewick - leitura.
+title: Leia um clássico da literatura tecnológica esse ano.
 layout: posts
 author: Otávio Reis Perkles
 comments: true
@@ -24,4 +24,4 @@ Em 2018 ouvi o episódio de um dos podcasts que acompanho regularmente intitulad
 
 O livro que escolhi para me guiar nessa busca por um conhecimento mais aprofundado foi a quarta edição do livro [**Algorithms**](<https://www.amazon.com.br/Algorithms-Algorithms_4-English-Robert-Sedgewick-ebook/dp/B004P8J1NA?tag=goog0ef-20&smid=A18CNA8NWQSYHH&ascsubtag=go_1686871380_65779544836_327582895583_pla-778262135724_c_>) do Robert Sedgewick. É um livro desafiador de fato, mas possui uma linguagem fácil de se ler, mesmo que o tema seja complexo.
 
-Você que conhece o livro provavelmente sabe o que enfrentarei em suas páginas e para você que leu esse texto e se encontrou na mesma situação, espero que tenha conseguido fazer você refletir sobre e contribuído para que todos busquemos um conhecimento mais consolidado em meio essa era de insumos rápidos. 
+Você que conhece o livro provavelmente sabe o que enfrentarei em suas páginas e para você que leu esse texto e se encontrou na mesma situação, espero que tenha conseguido fazer você refletir e contribuído para que todos busquemos um conhecimento mais consolidado em meio essa era de insumos rápidos. 
