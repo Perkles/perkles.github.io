@@ -33,6 +33,10 @@
 <lastmod>2018-12-20T00:00:00-02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/handbook</loc>
+<lastmod>2018-12-20T00:00:00-02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/blog/unicode</loc>
 <lastmod>2019-01-18T00:00:00-02:00</lastmod>
 </url>
@@ -56,5 +60,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/portfolio</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>
