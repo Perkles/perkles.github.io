@@ -49,6 +49,10 @@
 <lastmod>2019-05-31T00:00:00-03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/handbook</loc>
+<lastmod>2019-09-03T00:00:00-03:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/events</loc>
 </url>
 <url>
@@ -56,5 +60,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/portfolio</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>
