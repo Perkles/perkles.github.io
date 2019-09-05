@@ -260,6 +260,12 @@ td{
     .footer{display:none;}
 }
 
+blockquote{
+    margin: 0 0 1.5em;
+    padding: 0 1.5em;
+    border-left: 3px solid #e8a448;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .static-bar{width: 280px;}

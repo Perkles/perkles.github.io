@@ -10,8 +10,9 @@ comments: true
 
 ___
 
-> Esse artigo é uma tradução adaptada do artigo [The main pillars of learning programming — and why beginners should master them.](https://medium.freecodecamp.org/the-main-pillars-of-learning-programming-and-why-beginners-should-master-them-e04245c17c56) por [Rainer Hahnekamp](https://medium.freecodecamp.org/@rainer.hahnekamp)
+Esse artigo é uma tradução adaptada do artigo [The main pillars of learning programming — and why beginners should master them.](https://medium.freecodecamp.org/the-main-pillars-of-learning-programming-and-why-beginners-should-master-them-e04245c17c56) por [Rainer Hahnekamp](https://medium.freecodecamp.org/@rainer.hahnekamp)
 
+___
 
 
 Eu tenho programado por mais de 20 anos. Durante esse tempo eu tenho tido o prazer de trabalhar com muitas pessoas, nas quais eu aprendi muito. Eu também trabalhei com muitos estudantes, recém saídos da faculdade nos quais eu tive de assumir o papel de professor e mentor.
