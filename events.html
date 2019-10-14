@@ -31,6 +31,10 @@ title: Perkles - Events
 				<h3>Bootcamps</h3>
 				<a href="{{ event.event_url}}" target="_blank">{{ event.title }}</a>
 				({{ event.date | date: "%-d/%-m/%Y"}}) - {{event.local}}
+			{% elsif event.type == "hackathon" %}
+				<h3>Hackathon</h3>
+				<a href="{{ event.event_url}}" target="_blank">{{ event.title }}</a>
+				({{ event.date | date: "%-d/%-m/%Y"}}) - {{event.local}}
 			{% endif %}
 		{% endfor %}
 	</ul>
