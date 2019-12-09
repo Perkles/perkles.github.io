@@ -1,8 +1,7 @@
-# tight-jekyll-theme
-
-My own jekyll blog and portfolio template started from scratch.
-This project will be a study of html and css good practices and responsivity, it will also serve as my own blog when completed.
-
-In progress:
- - Implement Sass
- - Automate customization with Sass
+## Tópicos artigos 
+ - Minha experiencia no hacking rio 
+ - Falar sobre como é gerenciar uma comunidade e os desafios 
+ 
+## Melhorias 
+ - Melhorar a pagina de eventos, ta bem ruim
+ - Talvez melhorar o portfolio.
