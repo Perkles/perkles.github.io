@@ -4,9 +4,9 @@ paginate: 5
 permalink: blog/:title
 
 collections:
-  portfolio:
-    output: true
-    permalink: /portfolio/:title/
+  # portfolio:
+  #   output: true
+  #   permalink: /portfolio/:title/
 
   events:
     output: true

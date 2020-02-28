@@ -5,3 +5,7 @@
 ## Melhorias 
  - Melhorar a pagina de eventos, ta bem ruim
  - Talvez melhorar o portfolio.
+
+## API django x flask
+
+[Para criar uma aplicacao decente em flask vc tem de usar blueprints](https://hackersandslackers.com/flask-blueprints/)
