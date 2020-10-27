@@ -204,6 +204,20 @@ blockquote{
     padding: 0 1.5em;
     border-left: 3px solid #e8a448;
 }
+.page-title{
+    color:#626377;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.page-title-hashtag{
+    font-size: 8rem;
+    font-weight: 800;
+    padding-right: 10px;
+}
+
 /* ##-HASHTAGS-################################################### */
 #green{
     color: #48e8a6;
