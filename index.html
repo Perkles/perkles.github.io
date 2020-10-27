@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Perkles - Blog
+title: operkles - home
 ---
 
 <div class="article">
@@ -19,7 +19,7 @@ title: Perkles - Blog
             {{ post.date | date_to_long_string}}    —
             {% include read-time.html content=post.content %}
         </div>
-     {% endfor %}
+    {% endfor %}
 
     {% if paginator.total_pages > 1 %}
         <div class="pagination">
