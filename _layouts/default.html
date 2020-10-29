@@ -8,6 +8,7 @@
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/assets/css/normalize.css">
         <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="/assets/css/hackathon.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
             integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
             crossorigin="anonymous">
@@ -21,30 +22,38 @@
         <aside class="static-bar">
             <a href="{{ link.link | relative_url }} /">
                 <h1 >
-                    perkles.dev
+                    <spam class=titlle-diferent-color>o</spam>perkles<spam class=titlle-diferent-color>_</spam>
                 </h1>
             </a>
-            <a href="{{ link.link | relative_url }} /"><img src="/assets/images/perkles.jpg" class="img" alt="Perkles"></a>
-            <hr class="separator_one">
             <div class="social-icons">
-                <a target="_blank" href="https://www.linkedin.com/in/ot%C3%A1vio-reis-perkles-695913141/"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/operkles/"><i class="fab fa-linkedin"></i></a>
                 <a target="_blank" href="https://github.com/Perkles"><i class="fab fa-github-square"></i></a>
-                <a target="_blank" href="https://twitter.com/otavioperkles?lang=pt-br"><i class="fab fa-twitter-square"></i></a>
+                <a target="_blank" href="https://twitter.com/operkles"><i class="fab fa-twitter-square"></i></a>
+                <a target="_blank" href="https://www.twitch.tv/operkles"><i class="fab fa-twitch"></i></a>
             </div>
             <div class="description">
 
-                Líder da <a target="_blank" class="normal-link" href="https://codered-co.github.io/codered-co/">@Codered</a>,
-                desenvolvedor Java na <a target="_blank" class="normal-link" href="https://www.fdcsistemas.com.br/">@FDCSistemas</a>,
-                Python entusiasta e <a target="_blank" class="normal-link"  href="https://githubcampus.expert/Perkles/">Github Campus Expert</a>.
+                Crio eventos na <a target="_blank" class="normal-link" href="https://codered-co.github.io/codered-co/">@Codered</a>,
+                escrevo código em Java e PHP no meu dia a dia na <a target="_blank" class="normal-link" href="https://www.fdcsistemas.com.br/">@FDCSistemas</a>.
+                Sou membro do programa <a target="_blank" class="normal-link"  href="https://githubcampus.expert/Perkles/">Github Campus Expert</a> e 
+                livecoder na Twitch.
+                <br><br>
+                Quer aprender Git e GitHub ? Eu tenho um curso la na <a targer="_blank" class="normal-link" href="https://digitalinnovation.one/">Digital Inovation One</a>
+                de graça.
             </div>
             <div class="buttons">
-                <a href="{{ link.link | relative_url }} / " class="nav-btn">Blog</a>
-                <span class="btn-separator"> - </span>
-                <a href="{{ link.link | relative_url }} /events" class="nav-btn">Eventos</a>
-            </div>
-
-            <div class="copyright">
-                2018 © Otávio R. Perkles
+                <a href="{{ link.link | relative_url }} /opensource" class="nav-btn">
+                    <span class="buttons-hashtag" id="red">#</span> open source
+                </a>
+                <a href="{{ link.link | relative_url }} /hackathons" class="nav-btn">
+                    <span class="buttons-hashtag" id="green">#</span> hackathons
+                </a>
+                <a href="{{ link.link | relative_url }} /educacional" class="nav-btn">
+                    <span class="buttons-hashtag" id="magenta">#</span> educacional
+                </a>
+                <a class="soon" href="{{ link.link | relative_url }} /projetos" class="nav-btn">
+                    <span class="buttons-hashtag" id="purple">#</span> projetos
+                </a>
             </div>
 
         </aside>
@@ -52,10 +61,6 @@
         <article class="feed">
             {{ content }}
         </article>
-
-        <footer class="footer">
-            2018 © Otavio R
-        </footer>
 
         <script
               src="https://code.jquery.com/jquery-3.4.1.min.js"
