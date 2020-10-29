@@ -217,7 +217,9 @@ blockquote{
     font-weight: 800;
     padding-right: 10px;
 }
-
+.soon{
+    display: none;
+}
 /* ##-HASHTAGS-################################################### */
 #green{
     color: #48e8a6;

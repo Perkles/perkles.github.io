@@ -26,7 +26,16 @@
     padding: 5px;
     margin: 5px;
 }
-
-.hackathon-header-short-description{
-
+.contribution-status{
+    font-weight: 400!important;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+.contribution-status a{
+    color: #959da5;
+}
+.added{
+    color: #22863a;
+}
+.subtract{
+    color: #d73a49;
 }
