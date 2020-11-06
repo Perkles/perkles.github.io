@@ -220,6 +220,10 @@ blockquote{
 .soon{
     display: none;
 }
+#twitch-link{
+    color: #664cb9;
+    font-weight: 700;
+}
 /* ##-HASHTAGS-################################################### */
 #green{
     color: #48e8a6;
