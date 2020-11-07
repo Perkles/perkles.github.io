@@ -1,0 +1,31 @@
+.milestones{
+    margin: 2vw;
+}
+
+.milestone-container{
+    border-left: 9px solid #6f48e8;
+}
+
+.milestone-fase-description-title-container{
+    margin-left: 15px;
+    font-size: 26px;
+    position: relative;
+}
+
+.milestone-fase-description-title-container::before{
+    content: "";
+    background: url(../../assets/images/projetos/caret-right-solid.svg) no-repeat;
+    width: 39px;
+    height: 43px;
+    position: absolute;
+    left: -33px;
+    top: -6%;
+}
+
+.milestone-container .hackathon-tag-container{
+    padding: 15px;
+}
+
+.milestone-fase-description-title-container a{
+    color:#8364e0;
+}
