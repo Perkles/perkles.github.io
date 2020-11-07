@@ -18,10 +18,14 @@
     width: 39px;
     height: 43px;
     position: absolute;
-    left: -13%;
+    left: -33px;
     top: -6%;
 }
 
 .milestone-container .hackathon-tag-container{
     padding: 15px;
+}
+
+.milestone-fase-description-title-container a{
+    color:#8364e0;
 }
