@@ -41,6 +41,9 @@ td{
     border:1px solid #e8a448;
     padding: 10px;
 }
+.flex{
+    display: flex;
+}
 #disqus_thread{
     margin-top: 5vw;
 }

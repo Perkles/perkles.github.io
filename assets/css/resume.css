@@ -1,0 +1,23 @@
+.resume-photo img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.resume-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ /* resume-bio-social-links */
+.resume-bio-social-links{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.resume-social-links-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
