@@ -47,6 +47,9 @@ td{
 .normal-link{
     color: #e8a448;
 }
+.flex{
+    display: flex;
+}
 #flag{
     height: 15px;
 }
@@ -61,13 +64,9 @@ td{
 .nav-btn{
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    border-radius:15px;
-    background-color: #e8a448;
-    border: none;
-    color: #626377;
-    padding: 5px;
-    margin-bottom: 5px;
-    font-weight: 800;
+    display: flex;
+    align-items: center;
+    color: #cdd0ff;
 }
 .nav-btn-title{
     color: #7E80B2;
@@ -108,14 +107,22 @@ td{
     text-align: center;
     padding-top: 6px;
     padding-bottom: 2px;
-    background-color: #626377;
+    background-color: #34343c;
     width:100%;
 }
 .separator_one{
     width: 20rem;
 }
+.buttons-hashtag{
+    padding-right: 5px;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
 .buttons{
     margin: 5vh 0vh 5vh 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .article{
     text-align: justify;
@@ -192,12 +199,49 @@ td{
     border: solid white 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
-
+.titlle-diferent-color{
+    color: #CDD0FF;
+}
 blockquote{
     margin: 0 0 1.5em;
     padding: 0 1.5em;
     border-left: 3px solid #e8a448;
 }
+.page-title{
+    color:#626377;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.page-title-hashtag{
+    font-size: 8rem;
+    font-weight: 800;
+    padding-right: 10px;
+}
+.soon{
+    display: none;
+}
+#twitch-link{
+    color: #664cb9;
+    font-weight: 700;
+}
+/* ##-HASHTAGS-################################################### */
+#green{
+    color: #48e8a6;
+}
+#magenta{
+    color: #e848d4;
+}
+#red{
+    color: #e84874;
+}
+#purple{
+    color: #6f48e8;
+}
+
+/* ##-MEDIA QUERIES-################################################### */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 599px) {
@@ -216,6 +260,9 @@ blockquote{
         all: unset;
         color: #CDD0FF;
         cursor: pointer;
+    }
+    .hackathon-image img {
+        height: 50px!important;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -244,6 +291,7 @@ blockquote{
         color:#CDD0FF;
         margin-left: 3vw;
         margin-right: 3vw;
+        text-align: justify;
     }
     .feed{
         position:absolute;
@@ -293,7 +341,7 @@ blockquote{
     .feed{margin-left: 450px;}
     /* .copyright{margin-left: 1.5vh;} */
     .content{
-        max-width: 60%;
+        max-width: 75%;
     }
 }
 

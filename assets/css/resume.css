@@ -1,0 +1,98 @@
+/* --------------------------------------------- RESUME GENERAL */
+.resume{
+    margin-top: 50px;
+}
+.separation-line{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.resume-controls{
+    justify-content: flex-end;  
+}
+
+/* --------------------------------------------- RESUME HEADER */
+.resume-photo{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.resume-short-call{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.resume-short-call p{
+    margin-bottom: 5px;
+}
+.resume-photo img{
+    height: 150px;
+    border-radius: 50%;
+}
+.resume-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------------- RESUME BIO */
+
+.resume-bio-social-links{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.resume-social-links-item{
+    display: flex;
+    align-items: center;
+}
+
+/* --------------------------------------------- RESUME TECH */
+
+.resume-tech{
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 50px;
+}
+.resume-tech-pool {
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.resume-tech-icon{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center
+}
+.resume-tech-icon i {
+    font-size: 35px;
+    color: #e8a448;
+}
+.resume-tech-stack-item{
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* --------------------------------------------- RESUME PAST EXPERIENCE */
+.resume-past-exp{
+    margin-bottom: 50px;
+}
+.resume-past-exp-content {
+    flex-flow: wrap;
+}
+.resume-past-exp-content strong{
+    font-size: 20px;
+}
+.resume-past-exp-specs{
+    flex-flow: wrap;
+    margin-bottom: 50px;
+}
+
+/* --------------------------------------------- RESUME FOOTER */
+
+.resume-footer-notes small{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
