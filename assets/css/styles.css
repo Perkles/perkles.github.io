@@ -41,14 +41,14 @@ td{
     border:1px solid #e8a448;
     padding: 10px;
 }
-.flex{
-    display: flex;
-}
 #disqus_thread{
     margin-top: 5vw;
 }
 .normal-link{
     color: #e8a448;
+}
+.flex{
+    display: flex;
 }
 #flag{
     height: 15px;
@@ -341,7 +341,7 @@ blockquote{
     .feed{margin-left: 450px;}
     /* .copyright{margin-left: 1.5vh;} */
     .content{
-        max-width: 60%;
+        max-width: 75%;
     }
 }
 
