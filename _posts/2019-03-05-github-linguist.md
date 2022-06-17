@@ -7,7 +7,7 @@ comments: true
 ---
 
 
-![Linguist](/assets/images/octocat.png){:class="title-image"}
+![Linguist](/assets/images/posts/octocat.png){:class="title-image"}
 
 ___
 
@@ -84,7 +84,7 @@ Você ainda pode rodar o linguista no seu computador e ter estatísticas mais ap
 Bom, agora que você sabe como organizar de forma efetiva as linguagens em seus repositórios, agora que sabem também a importância disso para sua carreira e para as estatísticas globais do Github. Que tal conhecer o [Sourcerer](https://sourcerer.io/) ? 
 É um site que gera estatísticas super legais baseadas em sua atividade no Github. Você pode usar apenas como curiosidade ou profissionalmente, fique a vontade.
 
-![Sourcerer](/assets/images/sourcerer.png){:class="title-image"}
+![Sourcerer](/assets/images/posts/sourcerer.png){:class="title-image"}
 
 
 

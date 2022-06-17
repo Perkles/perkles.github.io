@@ -6,7 +6,7 @@ author: Otávio Reis Perkles
 comments: true
 ---
 
-![Pilates](/assets/images/header-pilares.png){:class="title-image"}
+![Pilates](/assets/images/posts/header-pilares.png){:class="title-image"}
 
 ___
 
@@ -32,7 +32,7 @@ Então vamos dar uma olhada onde novos programadores devem começar.
 
 ## TDD - Test-Driven Development (Desenvolvimento guiado a testes)
 
-![TDD](/assets/images/tdd.png){:class="post-image"}
+![TDD](/assets/images/posts/tdd.png){:class="post-image"}
 
 
 TDD traz uma série de benefícios. Infelizmente é um tópico avançado no qual iniciantes não estão completamente prontos para absorver.
@@ -52,7 +52,7 @@ O ponto principal é certificar-se que alunos aprendam o básico do comportament
 
 ## Fundamentos primeiro
 
-![principles](/assets/images/principles.png){:class="post-image"}
+![principles](/assets/images/posts/principles.png){:class="post-image"}
 
 
 Escuto com frequência que iniciantes devem começar imediatamente com algum framework. É como ensinar pessoas como dirigir colocando-os direto em um carro e pedindo para que façam a curva perfeita. Isso simplesmente ignora o fato que eles não sabem nem qual pedal que é usado para frear o carro.
@@ -70,7 +70,7 @@ Fundamentos são importantes. Não avance antes que estejam bem estabelecidos.
 
 ## Bibliotecas e Frameworks
 
-![bibliotecas](/assets/images/bibliotecas.png){:class="post-image"}
+![bibliotecas](/assets/images/posts/bibliotecas.png){:class="post-image"}
 
 
 Após estudantes gastarem um bom tempo programando, eles precisam aprender que a maioria do códigos existem em forma de uma biblioteca ou framework. Isso é mais um 'mindset' do que um padrão.
@@ -86,7 +86,7 @@ Dependendo do tempo disponível do curso pode ser difícil dispor de tempo para 
 
 ## Mestre e aprendiz.
 
-![mester](/assets/images/mester.png){:class="post-image"}
+![mester](/assets/images/posts/mester.png){:class="post-image"}
 
 
 Quando tinha 20 anos de idade eu queria aprender a tocar piano. E não queria um professor e pensava que eu conseguiria aprender tudo sozinho. Cinco anos depois eu consultei um tutor profissional. Bem, o que eu posso falar ? eu aprendi mais em um mês do que durante cinco anos anteriores.
@@ -106,7 +106,7 @@ Uma vez que o aprendiz atinge certo nível de proficiência, ele deve ser encora
 
 ## Desafios e motivação
 
-![motivacao](/assets/images/motivacao.png){:class="post-image"}
+![motivacao](/assets/images/posts/motivacao.png){:class="post-image"}
 
 
 "Vamos criar uma cópia do Facebook!" Isso não veio de chefe de um departamento de desenvolvedores de uma empresa multi milionária. Isso veio de um exercício introdutório ao curso de programação. Tal tarefa é virtualmente impossível. Ainda pior, estudantes são levados a acreditar que aqueles programadores que desenvolvem essas plataformas, possuem habilidades que estão verdadeiramente fora do alcance.

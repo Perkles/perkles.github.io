@@ -6,7 +6,7 @@ author: Otávio Reis Perkles
 comments: true
 ---
 
-![Linguist](/assets/images/livros.png){:class="title-image"}
+![Linguist](/assets/images/posts/livros.png){:class="title-image"}
 
 ___
 

@@ -5,13 +5,13 @@ layout: posts
 author: Otávio Reis Perkles
 comments: true
 galery:
-  - image_path: /assets/images/meCP12.jpg
+  - image_path: /assets/images/posts/meCP12.jpg
     title: Workshop.
-  - image_path: /assets/images/workshopCP12.jpg
+  - image_path: /assets/images/posts/workshopCP12.jpg
     title: Workshop.
 ---
 
-![CampusParty](/assets/images/cpcover.png){:class="title-image"}
+![CampusParty](/assets/images/posts/cpcover.png){:class="title-image"}
 
 ___
 
@@ -38,11 +38,5 @@ A Campus Party é um dos maiores eventos de tecnologia do **mundo**, ocorrendo e
 ## A Experiência
 
 Durante os dias do evento em conheci pessoas incríveis, auxiliei e instrui workshops, participei de uma mesa redonda com funcionários do Github e até dei uma palestra. Foi muito corrido, eu e minha equipe tivemos muito trabalho para preparar tudo da melhor forma possível, mas no fim tudo correu da forma planejada.
-
-<video autoplay loop muted inline style="max-height: 50vw;">
-  <source src="/assets/video/programacao-github-cp12.mp4" type="video/webm">
-  <source src="/assets/video/programacao-github-cp12.mp4" type="video/mp4">
-  <img src="eye-of-the-tiger-fallback.gif" />
-</video>
 
 Embora eu tenha auxiliado em todos os eventos do Github na CPBR12 deixo [aqui]({{site.url}}/talks) destacado os quais tive participação direta.
